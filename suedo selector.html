@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: 100px;
+        }
+        p::first-line{
+            background-color: darkolivegreen;
+        }
+        p::selection{
+            background-color: darkgoldenrod;
+        }
+        h1::after{
+            content: "*";
+        }
+        h1::before{
+            content: "*";
+        }
+        a:visited{
+            color: red;
+        }
+        a:active{
+            color: blue;
+        }
+        input:focus{
+            background-color: crimson;
+        }
+        h2:hover{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos nobis, sit sapiente soluta ea nostrum. Quae pariatur, doloribus magnam sequi quod hic aperiam totam, nihil ex voluptatibus vel sapiente? Saepe?</p>
+
+    <h1>psuedo selector</h1>
+
+    <a href="#">Home</a><br><br><br><br>
+
+    <input type="text">
+
+    <h2>Css psudo selector</h2>
+</body>
+</html>
+
